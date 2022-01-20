@@ -1,11 +1,11 @@
 android_app_import {
     name: "GboardLite",
+    owner: "google",
     apk: "prebuilt/GboardLite.apk",
-    product_specific: true,
+    presigned: true,
     dex_preopt: {
         enabled: false,
     },
+    product_specific: true,
     overrides: ["LatinIME"],
-    presigned: true,
-
 }
